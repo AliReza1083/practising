@@ -1,0 +1,97 @@
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+    padding: 100px 350px 0px;
+
+    text-align: center;
+    color: white;
+}
+header h1 {
+    font-size: 96px;
+    line-height: 1;
+    font-weight: 500;
+}
+header h1 span {
+    color: #00B53D;
+}
+
+header p {
+    font-family: 'Sora', sans-serif;
+    color: #FFFFFF;
+}
+
+header button {
+    display: inline-block;
+    font-size: 25px;
+    background-color: #00B53D;
+    border: 1px solid #00B53D;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: .3s;
+}
+header button:nth-child(2) {
+    background-color: #06190C;
+    color: #00B53D;
+    margin-left: 1em;
+}
+
+header button:hover {
+    background-color: #06190C;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    z-index: -100;
+}
+
+
+@media (max-width: 992px) {
+    header {
+        padding: 0 200px;
+    }
+}
+
+@media (max-width: 834px) {
+    header {
+        padding: 100px;
+    }
+    header h1 {
+        font-size: 60px;
+    }
+    header button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 100vh;
+        padding: 130px 30px 0px 30px;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    header button {
+        font-size: 13px;
+        padding: 5px 16px;
+    }
+    header button:nth-child(2) {
+        margin-left: .2em;
+    }
+}
