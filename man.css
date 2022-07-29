@@ -156,7 +156,7 @@ button:hover {
 }
 .article__3 .container2 > div:nth-child(1) {
     color: white;
-    background: url('../img/img11.webp') center/cover;
+    background: url('img/img11.webp') center/cover;
 }
 .article__3 .container2 > div:nth-child(1) button {
     background-color: white;
@@ -167,7 +167,7 @@ button:hover {
     border: 1px solid #666;
 }
 .article__3 .container2 > div:nth-child(2) {
-    background: url('../img/img12.webp') center/cover;
+    background: url('img/img12.webp') center/cover;
 }
 
 /* === container 3 === */
@@ -178,7 +178,7 @@ button:hover {
     margin: 2em 0;
 }
 .article__3 .container3 > div {
-    background: url('../img/img13.jpg') center/cover;
+    background: url('img/img13.jpg') center/cover;
 }
 
 /* === container 4 === */
@@ -189,7 +189,7 @@ button:hover {
     margin: 2em 0;
 }
 .article__3 .container4 > div {
-    background: url('../img/img15.jpg') center/cover;
+    background: url('img/img15.jpg') center/cover;
 }
 
 
@@ -452,10 +452,10 @@ footer .item3 ul li:hover {
     }
 
     .article__3 .container3 > div {
-        background: url('../img/img14.webp') center/cover;
+        background: url('img/img14.webp') center/cover;
     }
 
     .article__3 .container4 > div {
-        background: url('../img/img16.webp') center/cover;
+        background: url('img/img16.webp') center/cover;
     }
 }
